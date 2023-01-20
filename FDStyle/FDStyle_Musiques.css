@@ -1,0 +1,196 @@
+/*import de la police*/
+@font-face {
+    font-family: 'Oswald';
+    src: url('Font/oswald-regular.woff2') format('woff2'),
+         url('Font/oswald-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*paramètres du bandeau*/
+.bandeau {
+    height: 400px;;
+    background-image:url("image/pexels-pixabay-210922.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+/*-----------------------------------------------------paramètres des bontons-----------------------------------------------------*/
+.Acceuil {
+  padding: 110px;
+  color: white;
+  text-align: center;
+  position: static;
+  text-decoration: none;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 600%;
+  font-weight: bolder;
+}
+
+.Acceuilbouton {
+  color: white;
+  text-decoration: none;
+}
+
+.contenu {
+  font-family: Oswald, Arial, sans-serif;
+  text-align: center;
+}
+/* paramètre des boutons sous le bandeau*/
+.bouton {
+  background-color: #0D0D0D; /* Noir */
+  border: none;
+  color: white;
+  width: 13.09%;
+  padding: 2% 6%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: -2px -2px;
+  cursor: pointer;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* paramètres de boutons avec curseur au dessus*/
+.bouton:hover {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.02);
+  z-index: 3;
+}
+/* paramètres de couleur des boutons*/
+.bouton2 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton3 {background-color: #0D0D0D;} /* Noir */
+.bouton4 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton5 {background-color: #0D0D0D;} /* Noir */
+
+h1 {
+  font-size: 300%;
+  text-decoration: underline;
+}
+h2 {
+  /*La réponse est Would? de Alice in Chains*/
+}
+
+.intro {
+  font-size: 150%;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+.wiki {
+  color: blue;
+}
+
+/* -------------------------------------------------------------------------- COMPOSITION ? -----------------------------------------------------------------*/
+.composition {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.composition h1 {
+  color: black;
+}
+
+.composition p {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+.composition img {
+  max-width: 60%;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.avatar {
+  width: 49.8%;
+  height: 40%;
+  padding-top: 2%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.prenom {
+  text-align: center;
+  padding: 5px;
+  font-size: 200%;
+}
+
+.album {
+  width: 19.8%;
+  height: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 120%;
+}
+
+.video h1 {
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------ Bandeau de Fin-------------------------------------------------------------*/
+.Disclamer {
+  background-color: #262626;
+  color: white;
+  margin-top: 5px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 200%;
+}
+
+.fin {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.AcceuilboutonFin {
+  font-size: 500%;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+/*
+                  ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+                  ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+                  ¶¶¶¶_______¶¶¶¶¶¶¶_____¶¶¶¶¶¶¶¶¶____¶______¶¶¶¶¶¶¶
+                  ¶¶¶¶_________¶¶¶¶_______¶¶¶¶¶¶______¶______¶_____¶
+                  ¶¶¶¶__________¶¶¶________¶¶¶¶_______¶¶_____¶_____¶
+                  ¶¶¶¶__________¶¶__________¶¶________¶¶_____¶____¶¶
+                  ¶¶¶¶___________¶__________¶¶________¶¶____¶¶____¶¶
+                  ¶¶¶¶___________¶__________¶¶________¶¶____¶¶___¶¶¶
+                  ¶¶¶¶_____¶_____¶__________¶_________¶¶____¶____¶¶¶
+                  ¶¶¶¶_____¶¶____¶____¶¶____¶______¶¶¶¶¶_________¶¶¶
+                  ¶¶¶¶_____¶¶___¶¶___¶¶¶¶___¶_____¶¶¶¶¶¶________¶¶¶¶
+                  ¶¶¶¶_____¶¶___¶____¶¶¶¶___¶_____¶¶¶¶¶¶________¶¶¶¶
+                  ¶¶¶¶_____¶___¶¶¶___¶¶¶¶___¶_____¶¶¶¶¶¶_______¶¶¶¶¶
+                  ¶¶¶¶________¶¶¶¶___¶¶¶¶___¶¶____¶¶¶¶¶¶________¶¶¶¶
+                  ¶¶¶¶________¶¶¶¶____¶¶____¶¶_____¶¶¶¶¶________¶¶¶¶
+                  ¶¶¶¶_____¶___¶¶¶_________¶¶¶______¶¶¶¶____¶____¶¶¶
+                  ¶¶¶¶_____¶____¶¶¶________¶¶¶¶_______¶¶____¶_____¶¶
+                  ¶¶¶¶_____¶____¶¶¶¶______¶¶¶¶¶¶______¶¶____¶¶____¶¶
+                  ¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶____¶¶¶¶¶¶¶¶¶____¶¶¶¶¶¶¶¶__¶¶¶¶
+                  ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+
+
+
+*/
