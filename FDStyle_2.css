@@ -1,0 +1,171 @@
+/*import de la police*/
+@font-face {
+    font-family: 'Oswald';
+    src: url('Font/oswald-regular.woff2') format('woff2'),
+         url('Font/oswald-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*paramètres du bandeau*/
+.bandeau {
+    height: 400px;;
+    background-image:url("image/pexels-pixabay-210922.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+/*-----------------------------------------------------paramètres des bontons-----------------------------------------------------*/
+.Acceuil {
+  padding: 110px;
+  color: white;
+  text-align: center;
+  position: static;
+  text-decoration: none;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 600%;
+  font-weight: bolder;
+}
+
+.Acceuilbouton {
+  color: white;
+  text-decoration: none;
+}
+
+.contenu {
+  font-family: Oswald, Arial, sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+/* paramètre des boutons sous le bandeau*/
+.bouton {
+  background-color: #0D0D0D; /* Noir */
+  border: none;
+  color: white;
+  width: 13.09%;
+  padding: 2% 6%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: -2px -2px;
+  cursor: pointer;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* paramètres de boutons avec curseur au dessus*/
+.bouton:hover {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.02);
+  z-index: 3;
+}
+/* paramètres de couleur des boutons*/
+.bouton2 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton3 {background-color: #0D0D0D;} /* Noir */
+.bouton4 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton5 {background-color: #0D0D0D;} /* Noir */
+.selection {background-color: #4E4E4E; color: white;}
+.selectionW {background-color: #A1A1A1; color: black;}
+
+.groupe {
+  background-color: red;
+}
+
+.paragraphe {
+  font-size: 240%;
+  text-decoration: none;
+}
+
+.composition {
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.composition p {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+.composition img {
+  vertical-align: middle;
+}
+
+.gallerie {
+  background-color: black;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  font-size: 150%;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  display: inline-block;
+}
+
+.Bgall {
+  text-decoration: none;
+}
+
+.gallerie:hover {
+  border: 1px solid #777;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #262626;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+}
+
+.gallerie img {
+  width: 100%;
+  height: auto;
+}
+
+.descriptif {
+  height: 80px;
+  color: white;
+}
+
+.cita{
+  font-style: italic;
+  font-size: 250%;
+  margin-bottom: 0px;
+}
+
+.auteur {
+  margin-bottom: 50px;
+  font-size: 140%;
+}
+/*------------------------------------------------------------------------ Bandeau de Fin-------------------------------------------------------------*/
+.Disclamer {
+  background-color: #262626;
+  color: white;
+  margin-top: 5px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.fin {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  font-family: serif;
+}
+
+.AcceuilboutonFin {
+  font-size: 500%;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}

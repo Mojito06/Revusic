@@ -1,0 +1,175 @@
+/*import de la police*/
+@font-face {
+    font-family: 'Oswald';
+    src: url('Font/oswald-regular.woff2') format('woff2'),
+         url('Font/oswald-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*paramètres du bandeau*/
+.bandeau {
+    height: 400px;;
+    background-image:url("image/pexels-pixabay-210922.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+/*-----------------------------------------------------paramètres des bontons-----------------------------------------------------*/
+.Acceuil {
+  padding: 110px;
+  color: white;
+  text-align: center;
+  position: static;
+  text-decoration: none;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 600%;
+  font-weight: bolder;
+}
+
+.Acceuilbouton {
+  color: white;
+  text-decoration: none;
+}
+
+.contenu {
+  font-family: Oswald, Arial, sans-serif;
+  text-align: center;
+}
+/* paramètre des boutons sous le bandeau*/
+.bouton {
+  background-color: #0D0D0D; /* Noir */
+  border: none;
+  color: white;
+  width: 13.09%;
+  padding: 2% 6%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: -2px -2px;
+  cursor: pointer;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* paramètres de boutons avec curseur au dessus*/
+.bouton:hover {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.02);
+  z-index: 3;
+}
+/* paramètres de couleur des boutons*/
+.bouton2 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton3 {background-color: #0D0D0D;} /* Noir */
+.bouton4 {background-color: #e7e7e7; color: black;} /* blanc */
+.bouton5 {background-color: #0D0D0D;} /* Noir */
+
+
+/*------------------------------------------------------------------ Présentation------------------------------------------------------------------*/
+.Présentation {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.Présentation h1 {
+  font-size: 300%;
+  text-decoration: underline;
+}
+
+.foule {
+  position: static;
+  height: auto;
+}
+
+.Explications {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.Explications h2 {
+  font-size: 300%;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+
+.paragraphe {
+  font-size: 240%;
+  text-decoration: none;
+}
+
+.ligne {
+  position: static;
+  height: auto;
+}
+
+/* -------------------------------------------------------------------------- QUI ? -----------------------------------------------------------------*/
+.Qui {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.Qui h3 {
+  font-size: 300%;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+.Qui p {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+.Qui img {
+  max-width: 60%;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.avatar {
+  width: 49.8%;
+  height: 40%;
+  padding-top: 2%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.prenom {
+  text-align: center;
+  padding: 5px;
+  font-size: 200%;
+}
+
+/*------------------------------------------------------------------------ Bandeau de Fin-------------------------------------------------------------*/
+.Disclamer {
+  background-color: #262626;
+  color: white;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.fin {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.AcceuilboutonFin {
+  font-size: 500%;
+  font-style: italic;
+  font-family: Oswald, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
